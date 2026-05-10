@@ -1,73 +1,26 @@
 <!DOCTYPE html>
 <html>
-<head>
-<style>
-body {
-text-align: center;
-background-color: lightblue;
-font-family: Impact, sans-serif;
-}
-        
-h1 {
-background-color: indianred;
-border: 2px solid black;
-border-radius: 7px;
-}
-        
-a {
-text-decoration: none;
-color: black;
-padding: 10px;
-background-color: indianred;
-border-radius: 7px;
-border: 2px solid black;
-}
-        
-@media (max-width: 400px) {
-#title-page, a {
-background-color: orange;
-}
-}
-        
-@media (min-width: 400px) and (max-width: 600px) {
-#title-page, a {
-background-color: lightgreen;
-}
-}
-@media (min-width: 600px) and (max-width: 800px) {
-#title-page, a {
-background-color: pink;
-}
-}
-        
-@media (min-width: 800px) and (max-width: 1000px) {
-#title-page, a {
-color: white;
-background-color: black;
-border: 2px solid white;
-}
-}
-        
-a:hover {
-color: blue;
-}
-        
-#dancing-pug {
-width: 40%;
-border: 2px solid black;
-border-radius: 5px;
-}
-</style>
-</head>
-<body>
-<header>
-<h1 id="title-page">My Cool Website</h1>
-<a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Click Me!</a>
-</header>
-<main>
-<h3>This website is responsive!</h3>
-<h3>Try changing your window size</h3>
-<img id="dancing-pug" src="https://i.pinimg.com/originals/ef/f9/de/eff9de0cf1cf570ab121ddc87d3ce791.gif">
-</main>
-</body>
+  <head>
+    <title>My Cool Website</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+  </head>
+  <body>
+      <nav class="navbar">
+        <ul>
+         <li><a href="index.html">Home page</a></li>
+          <li><a href="page1.html">Other Page</a></li>
+          <li><a href="page2.html">Another Page</a></li>
+        </ul>
+      </nav>
+    
+      <h1>My Cool Website</h1>
+      <div class="imgDiv">
+      <img id="pug" src="https://i.pinimg.com/originals/8f/5e/3a/8f5e3ac35f12d3c0c731f8e79f06e496.gif" alt="Dancing Pug">
+      </div>
+      <br><br>
+      <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Click me!</a>
+  </body>
 </html>
